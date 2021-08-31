@@ -1,0 +1,40 @@
+public class Frodo extends Bilbo
+{
+  public void method1()
+  {
+System.out.println("Frodo 1");
+    super.method1();
+  }
+
+  public void method3()
+  {
+System.out.println("Frodo 3");
+  }
+}
+public class Gandalf
+{
+  public void method1()
+  {
+System.out.println("Gandalf 1");
+  }
+
+  public void method2()
+  {
+System.out.println("Gandalf 2");
+    method1();
+  }
+}
+public class Bilbo extends Gandalf
+{
+  public void method1()
+  {
+System.out.println("Bilbo 1");
+  }
+}
+public class Gollum extends Gandalf
+{
+  public void method3()
+  {
+System.out.println("Gollum 3");
+  }
+}

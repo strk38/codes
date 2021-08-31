@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.LinkedList;
 
-public class ShortestPathL1 {
+public class ShortestPathLevel1 {
 
     private static void addEdge(ArrayList<ArrayList<Integer>>adj,int i,int j){
         adj.get(i).add(j);

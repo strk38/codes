@@ -1,0 +1,9 @@
+public class Me{
+  private String name;
+  public Student(String _name ){
+  name=_name;
+  }
+  public String getName(){
+  return name;
+  }
+}

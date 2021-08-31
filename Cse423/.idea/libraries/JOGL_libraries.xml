@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="JOGL libraries">
+    <CLASSES>
+      <root url="file://E:/Notes/Spring21/Cse423/JOGL libraries" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://E:/Notes/Spring21/Cse423/JOGL libraries" />
+    </SOURCES>
+    <jarDirectory url="file://E:/Notes/Spring21/Cse423/JOGL libraries" recursive="false" />
+  </library>
+</component>

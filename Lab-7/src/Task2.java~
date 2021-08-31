@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Task2{
+  public static void main(String[]args){
+    System.out.println("Enter a String");
+  Scanner keyboard=new Scanner(System.in);
+  String s=keyboard.next();
+  char[] a= s.toCharArray();
+    StringHelper helper=new StringHelper();
+   
+    int index=keyboard.nextInt();
+   System.out.println("Character at"+helper.charAt(input,index));
+   
+  }
+}

@@ -1,0 +1,4 @@
+public class Test99{
+  public void simple message(String name){
+    System.out.print("Hello :"+name);}
+}

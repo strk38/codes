@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fa923864e7df4b80b4b79fbd331e7cfd" Name="Diagram1">
+        <EntityTypeShape EntityType="ShoppingDbModel.AdminTb" Width="1.5" PointX="1.125" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoppingDbModel.InvoiceTb" Width="1.5" PointX="0.625" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoppingDbModel.OrderTb" Width="1.5" PointX="5.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoppingDbModel.ProductTb" Width="1.5" PointX="8" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoppingDbModel.UserTb" Width="1.5" PointX="3.125" PointY="0.625" IsExpanded="true" />
+        <AssociationConnector Association="ShoppingDbModel.FK_InvoiceTb_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoppingDbModel.FK_OrderTb_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoppingDbModel.FK_OrderTb_ToTable_1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

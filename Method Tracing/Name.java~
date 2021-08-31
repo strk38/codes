@@ -1,0 +1,10 @@
+import java.util.Scanner;
+class Name{
+  public static void main(String[]args){
+  Scanner keyboard=new Scanner (System.in);
+   Test n=new Test();
+   System.out.println("Enter the text");
+   String name=keyboard.next();
+   n.simpleMessage(name);
+  }
+}

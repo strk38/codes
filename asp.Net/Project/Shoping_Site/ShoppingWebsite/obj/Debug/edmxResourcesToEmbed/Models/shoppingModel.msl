@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ShoppingDbModelStoreContainer" CdmEntityContainer="DbEntity">
+    <EntitySetMapping Name="AdminTbs">
+      <EntityTypeMapping TypeName="ShoppingDbModel.AdminTb">
+        <MappingFragment StoreEntitySet="AdminTb">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvoiceTbs">
+      <EntityTypeMapping TypeName="ShoppingDbModel.InvoiceTb">
+        <MappingFragment StoreEntitySet="InvoiceTb">
+          <ScalarProperty Name="invoiceId" ColumnName="invoiceId" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="PaymentType" ColumnName="PaymentType" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="CreditCardInfo" ColumnName="CreditCardInfo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderTbs">
+      <EntityTypeMapping TypeName="ShoppingDbModel.OrderTb">
+        <MappingFragment StoreEntitySet="OrderTb">
+          <ScalarProperty Name="OrderId" ColumnName="OrderId" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="User" ColumnName="User" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+          <ScalarProperty Name="TotalAmount" ColumnName="TotalAmount" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductTbs">
+      <EntityTypeMapping TypeName="ShoppingDbModel.ProductTb">
+        <MappingFragment StoreEntitySet="ProductTb">
+          <ScalarProperty Name="Pid" ColumnName="Pid" />
+          <ScalarProperty Name="Pname" ColumnName="Pname" />
+          <ScalarProperty Name="Pcompany" ColumnName="Pcompany" />
+          <ScalarProperty Name="Pcolor" ColumnName="Pcolor" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Pimage" ColumnName="Pimage" />
+          <ScalarProperty Name="Pdescription" ColumnName="Pdescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserTbs">
+      <EntityTypeMapping TypeName="ShoppingDbModel.UserTb">
+        <MappingFragment StoreEntitySet="UserTb">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UName" ColumnName="UName" />
+          <ScalarProperty Name="U_mail" ColumnName="U_mail" />
+          <ScalarProperty Name="U_contact" ColumnName="U_contact" />
+          <ScalarProperty Name="Uaddress" ColumnName="Uaddress" />
+          <ScalarProperty Name="Ucnic" ColumnName="Ucnic" />
+          <ScalarProperty Name="ZipCode" ColumnName="ZipCode" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

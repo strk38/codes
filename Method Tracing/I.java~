@@ -1,0 +1,7 @@
+import java.util.Scanner;
+class I{
+  public static void main(String[]args){
+    Me m=new Me();
+    m.print Name();
+  }
+}

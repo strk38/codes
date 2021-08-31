@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class Task3{
+  public static void main(String[]args){
+    System.out.println("Enter a String");
+  Scanner keyboard=new Scanner(System.in);
+  StringHelper helper=new StringHelper();
+  
+  System.out.println("Enter first strng");
+  String s1=keyboard.next();
+  char[] firstInput= s1.toCharArray();
+   
+  System.out.println("Enter first strng");
+  String s2=keyboard.next();
+  char[] secondInput= s2.toCharArray();
+  
+  
+  
+  System.out.println("Using Built in : "+s1.StartsWith(s2));
+   System.out.println("Pre-fix: "+helper.StartsWith(firstInput,secondInput));
+  }
+}
+  
+ 
+  
